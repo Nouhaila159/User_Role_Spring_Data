@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">Rapport de Projet Gestion d'Authentification</h1>
+<h1 style="text-align: center;">Rapport de Projet Gestion d'Authentification (User-Role)</h1>
 
 <h2>Introduction</h2>
 <p>Le présent rapport met en lumière le projet de gestion d'authentification, un système fondamental pour sécuriser l'accès aux ressources et services. Le projet repose sur la conception de deux entités principales, à savoir "User" (utilisateur) et "Role" (rôle). Ces deux entités sont interconnectées par une relation Many-to-Many, ce qui permet à un utilisateur d'être associé à plusieurs rôles, et inversement. La gestion de ces relations est facilitée par 
@@ -6,7 +6,7 @@ l'utilisation de la technologie Java Persistence API (JPA) et de Spring Data. </
 
 <h2>Conception du Projet</h2>
 <p >La conception du projet repose sur deux entités principales :
-User (utilisateur) et Role (rôle). Un utilisateur peut être associé à 
+User (utilisateur) et Rôle (rôle). Un utilisateur peut être associé à 
 plusieurs rôles, et un rôle peut être attribué à plusieurs utilisateurs. 
 Cette relation est gérée en utilisant une association Many-to-Many entre 
 les entités User et Role.</p>
@@ -108,7 +108,7 @@ authentification sécurisée.</p>
 <img src="captures/badCredential.png" alt="Authentification en échec">
 
 <h2>Exposition d'une API REST</h2>
-<p>Le contrôleur UserController expose une API REST pour 
+<p>L contrôleur UserController expose une API REST pour 
 récupérer les détails d'un utilisateur en utilisant son nom d'utilisateur.
 Cette API est accessible via une requête HTTP GET sur l'URL "/users/{username}".</p>
 
