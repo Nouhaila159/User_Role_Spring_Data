@@ -123,4 +123,3 @@ afin de maintenir la sécurité et la confidentialité des informations sensible
 de la conception d'un système d'authentification robuste et sécurisé. Il s'appuie
 sur des concepts clés tels que les relations Many-to-Many, les annotations JPA, et l'injection de dépendances. En exposant une API REST, il permet d'accéder aux détails 
 des utilisateurs tout en préservant la confidentialité des informations sensibles.</p>
-
