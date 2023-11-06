@@ -112,8 +112,7 @@ authentification sécurisée.</p>
 récupérer les détails d'un utilisateur en utilisant son nom d'utilisateur.
 Cette API est accessible via une requête HTTP GET sur l'URL "/users/{username}".</p>
 
-<h3>les détails d'un utilisateur avec le mot de passe</h3>
-<img src="captures/users_json_pwd.PNG" alt="users_json">
+
 <h3>les détails d'un utilisateur sans mot de passe</h3>
 <p>Pour exclure le mot de passe, on utilise la sérialisation JSON avec <code>@JsonProperty(access = JsonProperty.Access.WRITE_ONLY)</code> , 
 afin de maintenir la sécurité et la confidentialité des informations sensibles.</p>
